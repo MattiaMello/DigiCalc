@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\matti\\Documents\\DigiCalc\\DigiCalc\\DigiCalc.csproj": {}
+    "C:\\Users\\matti\\Documents\\digicalcgit\\DigiCalc\\DigiCalc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\matti\\Documents\\DigiCalc\\DigiCalc\\DigiCalc.csproj": {
+    "C:\\Users\\matti\\Documents\\digicalcgit\\DigiCalc\\DigiCalc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\matti\\Documents\\DigiCalc\\DigiCalc\\DigiCalc.csproj",
+        "projectUniqueName": "C:\\Users\\matti\\Documents\\digicalcgit\\DigiCalc\\DigiCalc.csproj",
         "projectName": "DigiCalc",
-        "projectPath": "C:\\Users\\matti\\Documents\\DigiCalc\\DigiCalc\\DigiCalc.csproj",
+        "projectPath": "C:\\Users\\matti\\Documents\\digicalcgit\\DigiCalc\\DigiCalc.csproj",
         "packagesPath": "C:\\Users\\matti\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\matti\\Documents\\DigiCalc\\DigiCalc\\obj\\",
+        "outputPath": "C:\\Users\\matti\\Documents\\digicalcgit\\DigiCalc\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

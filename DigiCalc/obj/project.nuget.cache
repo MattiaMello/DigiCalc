@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+EA2BMumbuzM5wunp8wZBu/OAzUDzP47DTQCSVyZmqCJVEZK/HmkD9EMFS2qYwLU7k+rftpw8iInuTROg6I2vg==",
+  "dgSpecHash": "lu6alqCHLwKuPtMcuZtTMv048SGWFsv5Eee30GpxYGviL1nyucT5YF/2S+sW27ODzl4mM5iJA6AgYHB+1HE91A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\matti\\Documents\\DigiCalc\\DigiCalc\\DigiCalc.csproj",
+  "projectFilePath": "C:\\Users\\matti\\Documents\\digicalcgit\\DigiCalc\\DigiCalc.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -65,25 +65,26 @@ namespace DigiCalc
 
         private static string cutDelimiters(string input)
         {
-            string part1 = input.Substring(0, input.IndexOf("//"));
-            string post = input.Substring(input.IndexOf("//") + 2);
-            int test = post.IndexOf("//") + 2;
-            int test2 = post.Length;
-            string part2 = post.Substring(post.IndexOf("//") + 2, test2 - test);
-
+            string delimitator = "//";
+            string part1 = input.Substring(0, input.IndexOf(delimitator));
+            string post = input.Substring(input.IndexOf(delimitator) + delimitator.Length);
+            int t1 = post.IndexOf(delimitator) + delimitator.Length;
+            int t2 = post.Length;
+            string part2 = post.Substring(post.IndexOf(delimitator) + delimitator.Length, t2 - t1);
             return part1 + part2;
         }
 
         private static List<string> readDelimiters(string input)
         {
+            string delimitator = "//";
             List<string> delimiters = new List<string>();
-            int io = input.IndexOf("//");
+            int io = input.IndexOf(delimitator);
             if (io < 0)
             {
                 return delimiters;
             }
             input = input.Substring(io + 2, input.Length - (io + 2));
-            io = input.IndexOf("//");
+            io = input.IndexOf(delimitator);
             if (io < 0)
             {
                 return delimiters;
@@ -99,10 +100,12 @@ namespace DigiCalc
 
         private static string nextDelimiter(string input)
         {
-            if (input.Contains("[") && input.Contains("]"))
+            string parameterStart = "[";
+            string parameterEnd = "]";
+            if (input.Contains(parameterStart) && input.Contains(parameterEnd))
             {
-                int io = input.IndexOf("[") + 1;
-                return input.Substring(io, input.IndexOf("]") - 1);
+                int io = input.IndexOf(parameterStart) + parameterStart.Length;
+                return input.Substring(io, input.IndexOf(parameterEnd) - parameterEnd.Length);
             }
             return null;
         }
