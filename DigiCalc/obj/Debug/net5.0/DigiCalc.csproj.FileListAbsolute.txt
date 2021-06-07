@@ -1,0 +1,16 @@
+C:\Users\matti\Documents\DigiCalc\DigiCalc\obj\Debug\net5.0\DigiCalc.csproj.AssemblyReference.cache
+C:\Users\matti\Documents\DigiCalc\DigiCalc\obj\Debug\net5.0\DigiCalc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matti\Documents\DigiCalc\DigiCalc\obj\Debug\net5.0\DigiCalc.AssemblyInfoInputs.cache
+C:\Users\matti\Documents\DigiCalc\DigiCalc\obj\Debug\net5.0\DigiCalc.AssemblyInfo.cs
+C:\Users\matti\Documents\DigiCalc\DigiCalc\obj\Debug\net5.0\DigiCalc.csproj.CoreCompileInputs.cache
+C:\Users\matti\Documents\DigiCalc\DigiCalc\bin\Debug\net5.0\DigiCalc.exe
+C:\Users\matti\Documents\DigiCalc\DigiCalc\bin\Debug\net5.0\DigiCalc.deps.json
+C:\Users\matti\Documents\DigiCalc\DigiCalc\bin\Debug\net5.0\DigiCalc.runtimeconfig.json
+C:\Users\matti\Documents\DigiCalc\DigiCalc\bin\Debug\net5.0\DigiCalc.runtimeconfig.dev.json
+C:\Users\matti\Documents\DigiCalc\DigiCalc\bin\Debug\net5.0\DigiCalc.dll
+C:\Users\matti\Documents\DigiCalc\DigiCalc\bin\Debug\net5.0\ref\DigiCalc.dll
+C:\Users\matti\Documents\DigiCalc\DigiCalc\bin\Debug\net5.0\DigiCalc.pdb
+C:\Users\matti\Documents\DigiCalc\DigiCalc\obj\Debug\net5.0\DigiCalc.dll
+C:\Users\matti\Documents\DigiCalc\DigiCalc\obj\Debug\net5.0\ref\DigiCalc.dll
+C:\Users\matti\Documents\DigiCalc\DigiCalc\obj\Debug\net5.0\DigiCalc.pdb
+C:\Users\matti\Documents\DigiCalc\DigiCalc\obj\Debug\net5.0\DigiCalc.genruntimeconfig.cache
