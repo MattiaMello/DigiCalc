@@ -203,10 +203,16 @@ namespace DigiCalc
                     }
                     else if (!last)
                     {
-                        difference = input.Substring(input.IndexOf(ds.Deliminter) + ds.DelimiterLength, input.Length - (input.IndexOf(ds.Deliminter) + ds.DelimiterLength));
-                        // difference = input.Substring(0, input.IndexOf(ds.Deliminter));
-                        // difference = input.Substring(input.LastIndexOf(ds.Deliminter) + ds.DelimiterLength);
-                        parseResult(difference, returnList, delimiters);
+                        if(!String.IsNullOrEmpty(substringBefore) && String.IsNullOrEmpty(substring))
+                        {
+                            parseResult(substringBefore, returnList, delimiters);
+                        } else
+                        {
+                            difference = input.Substring(input.IndexOf(ds.Deliminter) + ds.DelimiterLength, input.Length - (input.IndexOf(ds.Deliminter) + ds.DelimiterLength));
+                            // difference = input.Substring(0, input.IndexOf(ds.Deliminter));
+                            // difference = input.Substring(input.LastIndexOf(ds.Deliminter) + ds.DelimiterLength);
+                            parseResult(difference, returnList, delimiters);
+                        }
                     }
                 }
             }
